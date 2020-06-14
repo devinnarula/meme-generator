@@ -6,6 +6,9 @@
     width: 300px;
     height: auto;
     margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Meme-Caption {
@@ -18,4 +21,16 @@
     /* margin-top: 10px; */
     width: 270px;
     max-height: 330px;
+}
+
+.Meme-Delete {
+    color: red;
+    font-size: 30;
+    font-weight: 700;
+    background-color: lightgray;
+    align-items: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
 }

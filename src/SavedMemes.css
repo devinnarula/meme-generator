@@ -1,0 +1,9 @@
+.SavedMemes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.SavedMemes-Title{
+    color: white;
+}
